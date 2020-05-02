@@ -1,0 +1,54 @@
+1. Install .net Core --dotnet --info
+2. install node.js for npm. node --version, npm --version
+3. Visual Code Editor
+4. Postman
+5. DB Browser.
+
+------Extension Needs to be Installed----
+C#
+C# Extension
+NuGet Package Manager
+
+-------------------------------> dotnet commands
+1. cd C:\\Codes\\DatingApp
+2. dotnet -h
+3. dotnet new -h --> new project help
+4. dotnet new webapi -h ---> webapi project help
+5. dotnet new webapi -n DatingApp.API
+6. dotnet run --> run the dotnet program
+7. dotnet watch run ---> automatically runs a  application when you save the file with changes.
+8. dotnet tool install --global dotnet-ef ---> installing EntityFramework
+9. dotnet-ef -h 
+10. dotnet-ef migrations -h
+11. dotnet-ef migrations add InitialCreate
+12. dotnet-ef database update
+
+---------------------------->Angular commands
+npm install -g @angular/cli ----> to install angular cli globally
+ng new my-dream-app ---> create an application
+cd my-dream-app
+ng serve ----> to run a angular app.
+
+Get-ExecutionPolicy -list ---> Check ExecutionPolicy in Powershell for running commands
+Set-ExecutionPolicy RemoteSigned -Scope CurrentUser ----> Assign RemoteSigned to ExecutionPolicy for currrent user.
+
+--- chunks to install from Extension marketPlace VsCode
+angular snippets
+angular files
+Angular Language Service
+Auto Rename Tag
+Bracket Pair Colorizer 2
+Debugger for Chrome
+Material Icon Theme
+Prettier - COde Formatter
+TsLint
+Angular2-switcher
+
+------------------------>
+npm install bootstrap font-awesome install bootstrap to angular application.
+-----GIT
+git status ---> get the list of local changes
+update git.ignore files with skip bin, obj, *.db files
+git init ----> commit local changes
+git remote add origin https://github.com/GuptaParitosh/DatingApp.git  ---> Map to remote GITHUb Repo
+git push Or use vs code git pushTo button
