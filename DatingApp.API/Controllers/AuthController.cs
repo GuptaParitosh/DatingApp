@@ -30,6 +30,7 @@ namespace DatingApp.API.Controllers
         [HttpPost("register")]
         public async Task<IActionResult> Register(UserRegistrationDto userRegistrationDto){
             // user validation
+            throw new Exception("Chutiya mat kaato");
             if(string.IsNullOrEmpty(userRegistrationDto.Username)){
                 return BadRequest("username can't be empty");
             }
